@@ -11,15 +11,14 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Table(name = "melhorias_feedback") // Nome da tabela no banco
+@Table(name = "melhorias_feedback")
 public class MelhoriasFeedbackEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // Geração automática do id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String code; // TAG do feedback
-    private String reason; // Explicação do feedback
-
-    private Long feedbackId; // ID do feedback completo associado
+    private String code;
+    private String reason;
+    private Long feedbackId;
 }

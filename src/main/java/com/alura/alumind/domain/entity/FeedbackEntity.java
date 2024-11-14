@@ -10,15 +10,15 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "feedback") // Nome da tabela no banco
+@Table(name = "feedback")
 public class FeedbackEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // Geração automática do id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Enumerated(EnumType.STRING) // Enum como string no banco
-    private Sentiment sentiment; // Classificação do feedback (POSITIVO, NEGATIVO, etc.)
+    @Enumerated(EnumType.STRING)
+    private Sentiment sentiment;
 
-    private String feedbackText; // O próprio feedback
+    private String feedbackText;
 }
