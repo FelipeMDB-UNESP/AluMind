@@ -2,6 +2,9 @@
 
 **AluMind** é uma startup que desenvolve um aplicativo inovador focado em bem-estar e saúde mental. A aplicação oferece aos usuários acesso a meditações guiadas, sessões de terapia e conteúdos educativos sobre saúde mental, visando promover o equilíbrio emocional e melhorar a qualidade de vida.
 
+## IDE RECOMENDADA
+   ###  IntelliJ IDEA
+
 ## Estrutura do Projeto
 
 O projeto está organizado da seguinte forma:
@@ -43,24 +46,27 @@ Siga as instruções abaixo para configurar o ambiente e rodar o projeto localme
 3. **Substitua por completo o conteúdo do arquivo `application.properties`.**
 
 
-4. **Navegue até o diretório do projeto e instale as dependências do Maven:**
+4. **Navegue até o diretório do projeto e instale as dependências do Maven caso possua mvn instalado localmente:**
 
    ```bash
    mvn clean install
    ```
+   **Ou utilize o mvn de sua IDE**
+
+
 
 5. **Execute o projeto:**
 
-   ```bash
-   mvn spring-boot:run
-   ```
+   **Acesse o arquivo AlumindApplication.java e execute a aplicação.**
+   
+
 
 6. **Utilize Requisições do Postman(por exemplo) para testar as rotas da API.**
 
    Uma coleção foi criada previamente para facilitar seus testes! Aproveite!
 
 
-7. Em referência à funcionalidade extra
+7. **Em referência à funcionalidade extra.**
 
    Foi implementada como parte do endpoint já existente para gerar um ciclo completo para os feedbacks.
    A probabilidade desse endpoint ter de lidar com escalabilidade ou aumento de funções é muito pequena.
