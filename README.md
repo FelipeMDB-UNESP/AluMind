@@ -57,8 +57,10 @@ Siga as instruções abaixo para configurar o ambiente e rodar o projeto localme
 
 5. **Execute o projeto:**
 
-   **Acesse o arquivo AlumindApplication.java e execute a aplicação.**
-   
+   **Acesse o arquivo AlumindApplication.java e execute a aplicação. O projeto estará disponível na porta:**
+      ```
+   localhost:3000
+   ```
 
 
 6. **Utilize Requisições do Postman(por exemplo) para testar as rotas da API.**
