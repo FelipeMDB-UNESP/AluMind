@@ -58,3 +58,11 @@ Siga as instruções abaixo para configurar o ambiente e rodar o projeto localme
 6. **Utilize Requisições do Postman(por exemplo) para testar as rotas da API.**
 
    Uma coleção foi criada previamente para facilitar seus testes! Aproveite!
+
+
+7. Em referência à funcionalidade extra
+
+   Foi implementada como parte do endpoint já existente para gerar um ciclo completo para os feedbacks.
+   A probabilidade desse endpoint ter de lidar com escalabilidade ou aumento de funções é muito pequena.
+   Ser responsável por receber, interpretar e devolver a resposta de um feedback é uma funcionalidade que não se encaixa em muitos contextos.
+   Logo, a necessidade de reusabilidade diminui e a simplicidade e praticidade de se implementar o algoritmo no mesmo endpoint fica mais evidente!
