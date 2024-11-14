@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 @Table(name = "melhorias_feedback") // Nome da tabela no banco
-public class MelhoriasFeedback {
+public class MelhoriasFeedbackEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) // Geração automática do id
