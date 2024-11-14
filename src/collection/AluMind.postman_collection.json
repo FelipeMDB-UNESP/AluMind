@@ -1,0 +1,146 @@
+{
+	"info": {
+		"_postman_id": "eb3fd449-48b0-418a-a26b-4ecd1a5b4798",
+		"name": "AluMind",
+		"description": "Pacote de requisições para o projeto AluMind",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39689118"
+	},
+	"item": [
+		{
+			"name": "Enviar Feedback SPAM",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"feedback\": \"Eu amo batata fruta\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/feedbacks",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"feedbacks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Enviar Feedback INCONCLUSIVO",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"feedback\": \"Vou escrever meu feedback\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/feedbacks",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"feedbacks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Enviar Feedback Positivo com Sugestões",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"feedback\": \"Gosto muito de usar o Alumind! Está me ajudando bastante em relação a alguns problemas que tenho. Só queria que houvesse uma forma mais fácil de eu mesmo realizar a edição do meu perfil dentro da minha conta\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/feedbacks",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"feedbacks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Enviar Feedback com melhoria",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"feedback\": \"Vocês deveriam ter modo escuro!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/feedbacks",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"feedbacks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Enviar Feedback Negativo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"feedback\": \"Não gostei nenhum pouco dessa plataforma. A qualidade dos vídeos é muito baixa, não tem modo escuro e não tem aplicativo para celular.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/feedbacks",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"feedbacks"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
